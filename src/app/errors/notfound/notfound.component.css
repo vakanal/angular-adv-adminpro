@@ -1,0 +1,14 @@
+.content-wrapper {
+  margin-left: 0px !important;
+  background-color: #ffffff;
+}
+
+.error-page {
+  margin: 0 auto;
+  width: 600px;
+  padding-top: 20px;
+}
+
+.error-content {
+  margin-top: 20px;
+}

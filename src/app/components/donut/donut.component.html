@@ -1,0 +1,18 @@
+<div class="card">
+  <div class="card-header" *ngIf="title">
+    <h3 class="card-title">{{ title }}</h3>
+  </div>
+  <div class="card-body" *ngIf="labels.length !== 0 && data.length !== 0">
+    <div style="display: block">
+      <canvas
+        baseChart
+        [colors]="colors"
+        [data]="data"
+        [labels]="labels"
+        [chartType]="charType"
+        [options]="options"
+      >
+      </canvas>
+    </div>
+  </div>
+</div>
