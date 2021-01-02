@@ -8,11 +8,12 @@ export class SidebarService {
     {
       title: 'Dashboard',
       icon: 'nav-icon fas fa-tachometer-alt',
-      url: '/',
       submenu: [
-        { title: 'Principal', url: '/' },
-        { title: 'ProgressBar', url: 'progress' },
+        { title: 'Principal', url: '/dashboard' },
         { title: 'Gráficas', url: 'grafica1' },
+        { title: 'ProgressBar', url: 'progress' },
+        { title: 'Promesas', url: 'promesas' },
+        { title: 'RxJs', url: 'rxjs' },
       ],
     },
     {
